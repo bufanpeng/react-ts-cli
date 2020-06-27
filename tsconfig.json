@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "module": "commonjs", 
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "jsx": "preserve",
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": false,
+        "target": "es5",
+        "lib": [
+            "es2015",
+            "dom", 
+            "es7"
+        ],
+        "baseUrl": "./",
+        "rootDirs": ["src"],
+        "paths": {
+            "@/*":["src/*"]
+        }
+    },
+    "includes": [
+        "./src/externals.d.ts",
+        "./global.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "lib",
+        "es"
+    ]
+}
