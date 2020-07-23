@@ -2,7 +2,7 @@
 
 #### 全局安装脚手架
 
-sudo npm i -g creat-react-ts
+sudo npm i -g creat-react-ts \n
 npm i -g creat-react-ts
 
 #### 创建项目
