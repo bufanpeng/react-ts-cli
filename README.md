@@ -1,10 +1,13 @@
 # react-ts-cli 脚手架
 
 #### 全局安装脚手架
-npm i -g react-ts-cli
+
+sudo npm i -g creat-react-ts
+npm i -g creat-react-ts
 
 #### 创建项目
-react-ts-cli init <projectName>
+
+creat-react-ts init projectName
 
 #### 下载依赖
 npm i
