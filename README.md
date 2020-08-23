@@ -45,6 +45,7 @@ npm start
 creattemplate creat <pageName(文件夹名字)>
 
 #### 会一次创建tsx文件，less文件，model文件，service文件，URL文件，可根据自己需要选择创建
+#### 后面会升级成自定义的工具，模版可以采用内置，可以自己配置,就可以灵活应用到react,vue等项目，目前指支持react+ts
 
 #### 如果单独使用可以自行安装
 ##### mac用户
